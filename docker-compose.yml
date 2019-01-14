@@ -4,4 +4,4 @@ services:
     build: .
     volumes:
       - .:/opt/app:cached
-      - /opt/opp/node_modules
+      - /opt/app/node_modules
