@@ -1,4 +1,4 @@
 # docker-compose-issue-ignoring-subdirectory
-A repository made to demonstrate an issue with being unable to ignore mounting subfolders in mounted volumes.
+A repository made to demonstrate an issue with where mounting subdirectories of host volumes as anonymous or named volumes fails, and they're instead also mounted as host volumes.
 
-See [docker/compose#6459](https://github.com/docker/compose/issues/6459) for more details.
+See [moby/moby#38564](https://github.com/moby/moby/issues/38564) for more details.
